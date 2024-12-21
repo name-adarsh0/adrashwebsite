@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home {
+    padding: 10px;
+}
+
+.home ul li {
+    list-style: none;
+    gap: 15px;
+    width: 14px;
+    display: flex;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.playlist {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    padding-top: 14px;
+    align-items: center;
+    padding: 23px 14px;
+    font-size: 13px;
+
+}
+
+.playlist img {
+    width: 30px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+
+}
+
+.library {
+    min-height: 80vh;
+    position: relative;
+}
+
+.right {
+    margin: 16px 0;
+    position: relative;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42, 41, 41);
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.spotifyPlaylist {
+    padding: 16px;
+}
+
+.cardContainer {
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow: scroll;
+}
+
+.card {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    opacity: 0;
+    transition: all 1s ease-out;
+
+}
+
+.card>* {
+    padding-top: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+.button > *{
+    margin: 0 12px;
+}
+.signupbtn{
+    background-color: rgb(42, 41, 41);
+    color: rgb(112, 112, 112);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.signupbtn:hover{
+    font-size: 1.1 rem;
+    color: white;
+}
+.loginbtn{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(4, 44, 4);
+    width: 100%;
+    padding: 12px;
+}
+.songbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}

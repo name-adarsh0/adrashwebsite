@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none">
+  <!-- Circular background with white fill and black stroke -->
+  <circle cx="12" cy="12" r="11.5" fill="none" stroke="black" stroke-width="1"></circle>
+  <!-- Left arrow for previous song -->
+  <polygon points="14 8 10 12 14 16" fill="black"></polygon>
+  <!-- Small rectangle for pause/previous control -->
+  <rect x="8" y="8" width="2" height="8" fill="black"></rect>
+</svg>
